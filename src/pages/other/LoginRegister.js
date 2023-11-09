@@ -63,9 +63,7 @@ const registerForm = {
         message: "Password is required"
       },
 
-      validate: {
-        hasSpecialChar: (value) => (value && value.match(/^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,16}$/)) || 'Password must be minimum of 8 characters atleast one number and one special character'
-      }
+
     }
   },
   repeatPassword: {
